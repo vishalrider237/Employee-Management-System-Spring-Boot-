@@ -1,1 +1,1 @@
-Swagger Link- https://employee-angular-spring-boot.cfapps.us10-001.hana.ondemand.com/swagger-ui/index.html#/
+Swagger Link- https://downtime.cfapps.eu10-004.hana.ondemand.com/swagger-ui/index.html#/
