@@ -11,6 +11,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 @SpringBootApplication
+@EnableConfigurationProperties
 public class AgularSpringBootApplication {
 
     public static void main(String[] args) {
