@@ -9,7 +9,8 @@ applications:
    services:
       - orderapi-db
 
-   
+   services:
+      - orderapi-db
 
 
 
