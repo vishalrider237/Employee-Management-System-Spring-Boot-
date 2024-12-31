@@ -1,0 +1,21 @@
+type Employee{
+    id:ID!,
+    name:String,
+    email:String,
+    phone_no:String,
+    address:String
+}
+type Mutation{
+    addEmployee(name:String,email:String,phone_no:String,address:String):Message
+    updateEmployee(id:ID!,name:String,email:String,phone_no:String,address:String):Message
+    deleteEmployee(id:ID!):Message
+}
+type Query{
+    getAllEmployee:[Employee]
+    getEmployeeBasedOnId(id:ID!):Employee
+}
+
+type Message {
+    message: String
+    code: Int
+}
